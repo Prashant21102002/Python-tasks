@@ -1,5 +1,2 @@
-a = input("Enter your first name: ")
-b = input("Enter your last name: ")
-a = str(a)
-b = str(b) 
-print(f"Hello, {a} {b}! Welcome to Python program.")
+n = list(range(1, 51))
+print(f"The sum of numbers from 1 to 50 is: {sum(n)}")
