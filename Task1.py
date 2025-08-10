@@ -1,6 +1,8 @@
-a = input("Enter a number: ")
+a = input("Enter the first number: ")
+b = input("Enter the second number: ")
 a = int(a)
-if a % 2 == 0:
-    print(f"{a} is an even number.")
-else:
-    print(f"{a} is an odd number.")
+b = int(b)
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
